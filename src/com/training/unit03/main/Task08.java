@@ -5,7 +5,7 @@ import java.util.Random;
 public class Task08 {
 
 	public static void main(String[] args) {
-		//Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
+		
 		
 		Random rand = new Random();
 		
