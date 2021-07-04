@@ -5,31 +5,30 @@ import java.util.Random;
 public class Task06 {
 
 	public static void main(String[] args) {
-		//Дан двухмерный массив nm элементов. Определить, сколько раз 
-		//встречается число 7 среди элементов массива.
+		
        
-       int [] [] array = new int [5] [5];
+        int [] [] array = new int [5] [5];
        
-       Random rand = new Random();
+        Random rand = new Random();
        
-       for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
     	   for (int j = 0; j < array [i].length; j++) {
-    		   array [i] [j] = rand.nextInt(10);
-    		   System.out.printf("[%4d]", array [i][j]);
+    		array [i] [j] = rand.nextInt(10);
+    		System.out.printf("[%4d]", array [i][j]);
     	   }
     	   System.out.println();
-       }
+        }
        
-       int count = 0;
-       for (int i = 0; i < array.length; i++) {
-    	   for (int j = 0; j < array [i].length; j++) {
-    		   if (array[i][j] == 7) {
-    			   count++;
-    		   }
-           }
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+    	    for (int j = 0; j < array [i].length; j++) {
+    		if (array[i][j] == 7) {
+    			count++;
+    		}
+            }
 	
-	   }
-       System.out.println();
-       System.out.print("Число 7 встречается " + count + " раз(а) среди элементов массива.");
 	}
+        System.out.println();
+        System.out.print("Р§РёСЃР»Рѕ 7 РІСЃС‚СЂРµС‡Р°РµС‚СЃСЏ " + count + " СЂР°Р·(Р°) СЃСЂРµРґРё СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°.");
+    }
 }
