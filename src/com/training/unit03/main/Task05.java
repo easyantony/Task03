@@ -5,13 +5,13 @@ import java.util.Random;
 public class Task05 {
 
 	public static void main(String[] args) {
-		//Реализовать алгоритм сортировки вставками.
+		
 		
 		Random rand = new Random();
 		
 		int [] mas = new int [10];
 		
-		System.out.print("Массив:                ");
+		System.out.print("РњР°СЃСЃРёРІ:                ");
 		
 		for (int i = 0;i < mas.length;i ++) {
 			mas [i] = rand.nextInt(1000);
@@ -20,7 +20,7 @@ public class Task05 {
 		
 		System.out.println();
 		
-		System.out.print("Отсортированный массив:");
+		System.out.print("РћС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ: ");
 		
 		int j, temp;
 		for (int i = 0; i < mas.length; i++) {
@@ -32,9 +32,9 @@ public class Task05 {
 		}
 		
 		
-	    for (int i = 0; i < mas.length; i ++) {
+	    	for (int i = 0; i < mas.length; i ++) {
 	    	System.out.print("[" + mas [i] + "]");
-	    }
+	    	}
 	}					
 }
 
