@@ -3,7 +3,7 @@ package com.training.unit03.main;
 public class Task09 {
 
 	public static void main(String[] args) {
-//—формировать квадратную матрицу пор€дка n по заданному образцу(n - четное)
+
 		
 		int n = 6;
 		int [] [] mas = new int [n] [n];
