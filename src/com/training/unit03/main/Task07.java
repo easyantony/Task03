@@ -5,8 +5,7 @@ import java.util.Random;
 public class Task07 {
 
 	public static void main(String[] args) {
-		//Дана квадратная матрица. Вывести на экран элементы, 
-		//стоящие на диагонали.
+		
 		
 		int [] [] array = new int [5] [5];
 		
