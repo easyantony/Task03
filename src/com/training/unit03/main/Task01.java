@@ -5,9 +5,7 @@ import java.util.Random;
 public class Task01 {
 
 	public static void main(String[] args) {
-		//Дана последовательность натуральных чисел а1 , а2 ,..., ап. 
-		//Создать массив из четных чисел этой последовательности. 
-		//Если таких чисел нет, то вывести сообщение об этом факте.
+		
         
 		int n = 10;
 		
@@ -19,7 +17,7 @@ public class Task01 {
 			 mas [i] = rand.nextInt(100);
 			 System.out.print("[" + mas[i] + "] ");
 		}	 
-			 System.out.print("\nМассив из четных чисел: ");
+			 System.out.print("\nРњР°СЃСЃРёРІ РёР· С‡РµС‚РЅС‹С… С‡РёСЃРµР»: ");
 		
 		int count = 0;
 		for (int i = 0; i < mas.length; i++) {	
@@ -30,7 +28,7 @@ public class Task01 {
 		}	
 		
 		if (count == 0) {
-			System.out.print("В данном массиве нету чётных чисел");
+			System.out.print("Р’ РґР°РЅРЅРѕРј РјР°СЃСЃРёРІРµ РЅРµС‚Сѓ С‡С‘С‚РЅС‹С… С‡РёСЃРµР»");
 		}
 	}
 }
