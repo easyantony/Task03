@@ -5,8 +5,7 @@ import java.util.Random;
 public class Task04 {
 
 	public static void main(String[] args) {
-		//Реализовать сортировки выбором или пузырьком по убыванию. 
-		
+		 		
 		int [] mas = new int [10];
 		
 		Random rand = new Random();
